@@ -55,3 +55,7 @@ li {
     border-style: solid;
     padding: 50px;
 }
+
+.list_div{
+    display: inline-flex;
+}
