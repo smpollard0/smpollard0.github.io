@@ -1,0 +1,9 @@
+text: "Home"
+href: index.html
+
+text: "Other"
+href: other.html
+right:
+
+text: GitHub
+href: https://github.com
