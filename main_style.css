@@ -1,0 +1,52 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.everything {
+    padding-left: 20%;
+    padding-right: 20%;
+    align-items: center;
+    display :flex;
+    justify-content: center;
+}
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar atthe top of the page */
+    padding-left: 25%;
+    padding-right: 25%;
+}
+  
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Main content */
+.main_content {
+    background: #939393fe;
+    text-align: center;
+    margin-top: 100px; /* Add a top margin to avoid content overlay */
+    height: 100%;
+    width: 75%;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
