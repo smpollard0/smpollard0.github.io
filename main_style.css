@@ -74,3 +74,11 @@ li {
 .list_div_image img{
     object-fit: contain;
 }
+
+.project_content{
+    display: inline-flex;
+}
+
+.project_description{
+    text-align: center;
+}
