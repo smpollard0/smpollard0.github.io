@@ -38,11 +38,11 @@ body {
 /* Main content */
 .main_content {
     background: #bbbbbbfe;
+    border-radius: 10px;
     text-align: center;
     margin-top: 100px; /* Add a top margin to avoid content overlay */
     height: 100%;
     width: 75%;
-    
 }
 
 ul {
@@ -62,9 +62,14 @@ li {
 }
 
 .list_div_image{
-    margin: 5%;
+    margin: 2%;
+
 }
 
 .list_div_content{
     text-align: center;
+}
+
+.list_div_image img{
+    object-fit: contain;
 }
