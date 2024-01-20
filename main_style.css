@@ -3,10 +3,10 @@ body {
 }
 
 .everything {
-    padding-left: 20%;
-    padding-right: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
     align-items: center;
-    display :flex;
+    display: flex;
     justify-content: center;
 }
 /* The navigation bar */
@@ -14,7 +14,7 @@ body {
     overflow: hidden;
     background-color: #ffffff;
     position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar atthe top of the page */
+    top: 0; /* Position the navbar at the top of the page */
     padding-left: 25%;
     padding-right: 25%;
 }
@@ -53,9 +53,18 @@ ul {
 
 li {
     border-style: solid;
-    padding: 50px;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .list_div{
     display: inline-flex;
+}
+
+.list_div_image{
+    margin: 5%;
+}
+
+.list_div_content{
+    text-align: center;
 }
