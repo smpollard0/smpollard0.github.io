@@ -63,16 +63,20 @@ li {
 
 .list_div_image{
     margin: 2%;
+    width: 100%;
+}
 
+.list_div_image img{
+    width: 100%;
+}
+
+#arpin{
+    width: 50%;
 }
 
 .list_div_content{
     text-align: center;
     padding: 10px;
-}
-
-.list_div_image img{
-    object-fit: contain;
 }
 
 .project_content{
