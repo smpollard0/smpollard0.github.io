@@ -20,7 +20,7 @@
         <div class="main_content">
             <div class="header">
                 <h1>Projects</h1>
-                <p>All of the projects listed here are also listed in my CV but are described in more detail here.</p> <br><br>
+                <p>All of the projects listed here are also listed in my <a href="./docs/Curriculum_Vitae.pdf" download>CV</a> but are described in more detail here.</p>
             </div>
             <div class="content">
                 <h2>Research Projects</h2>
@@ -52,7 +52,9 @@
                                     <img src="https://lidar.csuchico.edu/staff/pollard/newDac.png">
                                 </div>
                                 <div class="project_description">
-                                    <p>This project is explained in a lot more detail of what I did specifically <a href="https://lidar.csuchico.edu/staff/pollard/">here</a>. Essentially, the LiDAR data acquisition software at Chico State runs on a single machine that is 20+ years old running LabVIEW code that is maintained remotely. Dr. Shane Mayor wants to move the data acquisition software to a newer machine where the program that is running everything is written in Python. The main reason for this is that LabVIEW is not only expensive to keep a license for, but it's also not very new-user friendly. I did as much as I could working on this project with part-time hours in a 3 week period.</p> 
+                                    <p>This project is explained in a lot more detail of what I did specifically <a href="https://lidar.csuchico.edu/staff/pollard/">here</a>. Essentially, the LiDAR data acquisition software at Chico State runs on a single machine that is 20+ years old running LabVIEW code that is maintained remotely. Dr. Shane Mayor wants to move the data acquisition software to a newer machine where the program that is running everything is written in Python. The main reason for this is that LabVIEW is not only expensive to keep a license for, but it's also not very new-user friendly. I did as much as I could working on this project with part-time hours in a 3 week period. The core of the program should function as shown below.</p>
+                                    <object data="https://lidar.csuchico.edu/staff/pollard/flowchart.svg" width="100%"></object>
+                                    <p>The program should be in a constant loop waiting for a particular trigger pulse which would start the data acquisition. Once that pulse is received, those 6 processes should begin at the same time which are then placed into a record, that record is broadcasted on a network socket, and all of that data is written to disk before starting the loop over waiting for another trigger event.</p>
                                 </div>
                             </div>
                         </li>
