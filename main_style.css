@@ -80,5 +80,12 @@ li {
 }
 
 .project_description{
-    text-align: center;
+    text-align: justify;
+    padding-right: 50px;
+}
+
+.project_image{
+    align-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
