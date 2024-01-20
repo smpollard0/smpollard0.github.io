@@ -90,8 +90,7 @@ li {
 
 .project_image{
     align-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin: 2%;
     width: 50%;
 }
 
@@ -104,9 +103,9 @@ li {
 }
 
 #DAC_image{
-    width: 115%;
+    width: 100%;
 }
 
 #DAC{
-    width: 115%;
+    width: 100%;
 }
