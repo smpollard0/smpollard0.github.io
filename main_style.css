@@ -15,8 +15,8 @@ body {
     background-color: #ffffff;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    margin-left: 25%;
-    margin-right: 25%;
+    padding-left: 25%;
+    padding-right: 25%;
     align-content: center; /* this may have broken something later on*/
 }
   
