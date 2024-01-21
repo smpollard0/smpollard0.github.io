@@ -75,7 +75,7 @@ li {
 }
 
 .list_div_content{
-    text-align: center;
+    text-align: justify;
     padding: 10px;
 }
 
@@ -91,7 +91,6 @@ li {
 .project_image{
     align-content: center;
     margin: 2%;
-    width: 50%;
 }
 
 .project_image img{
