@@ -15,8 +15,9 @@ body {
     background-color: #ffffff;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    padding-left: 25%;
-    padding-right: 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-content: center; /* this may have broken something later on*/
 }
   
 /* Links inside the navbar */
@@ -55,6 +56,19 @@ li {
     border-style: solid;
     padding-left: 1%;
     padding-right: 1%;
+}
+
+.education_image {
+    width: 50%;
+    margin: auto;
+}
+
+.education_image img{
+    width: 100%;
+}
+
+.education_text {
+    text-align: center;
 }
 
 .list_div{
