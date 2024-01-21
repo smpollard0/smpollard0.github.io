@@ -1,0 +1,12 @@
+.education_image {
+    width: 50%;
+    margin: auto;
+}
+
+.education_image img{
+    width: 100%;
+}
+
+.education_text {
+    text-align: center;
+}

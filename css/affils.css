@@ -1,0 +1,21 @@
+.list_div{
+    display: inline-flex;
+}
+
+.list_div_image{
+    margin: 2%;
+    width: 100%;
+}
+
+.list_div_image img{
+    width: 100%;
+}
+
+#arpin{
+    width: 50%;
+}
+
+.list_div_content{
+    text-align: justify;
+    padding: 10px;
+}

@@ -1,0 +1,29 @@
+.project_content{
+    display: inline-flex;
+}
+
+.project_description{
+    text-align: justify;
+    padding-right: 50px;
+}
+
+.project_image{
+    align-content: center;
+    margin: 2%;
+}
+
+.project_image img{
+    width: 100%;
+}
+
+#organizeOrbit{
+    width: 100%;
+}
+
+#DAC_image{
+    width: 100%;
+}
+
+#DAC{
+    width: 100%;
+}

@@ -1,0 +1,17 @@
+.about_me{
+    display: inline-flex;
+}
+
+.about_image{
+    width: 100%;
+    margin: 2%;
+}
+
+.about_image img{
+    width: 100%;
+}
+
+.about_text{
+    text-align: justify;
+    margin-right: 50px;
+}
