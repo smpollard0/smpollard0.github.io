@@ -68561,7 +68561,7 @@ A.Zg.prototype={
 SN(a){$.aaV().n(0,this,a)}}
 A.zU.prototype={
 M(a){var s=null,r=t.E
-return A.je(new A.cY(B.e5,A.r5(A.b([A.abi(new A.cY(B.e5,A.F8(A.b([A.mm(new A.tl(A.as5(s,s,new A.qK("../assets/me.jpg",s,s)),B.xj,s),227,156),B.IF,B.AC],r),B.ay,B.b5,B.b6),s),s),B.IG,B.O6,A.T3(s,B.O3,B.b2,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.Of(a),s,s,s,s,s,s)],r),B.ay,B.dd),s),s,s)}}
+return A.je(new A.cY(B.e5,A.r5(A.b([A.abi(new A.cY(B.e5,A.F8(A.b([A.mm(new A.tl(A.as5(s,s,new A.qK("./images/me.jpg",s,s)),B.xj,s),227,156),B.IF,B.AC],r),B.ay,B.b5,B.b6),s),s),B.IG,B.O6,A.T3(s,B.O3,B.b2,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.Of(a),s,s,s,s,s,s)],r),B.ay,B.dd),s),s,s)}}
 A.Of.prototype={
 $0(){A.PZ(B.xq)
 var s=this.a.af(t.Pu)
