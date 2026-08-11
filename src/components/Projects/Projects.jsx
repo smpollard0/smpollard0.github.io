@@ -11,7 +11,7 @@ const projectDescriptions = [
   
   "This was my final project for my Software Engineering class that I took at CSU Northridge. We were in groups of 5-7 and my group decided to create a glorified to-do list. This web application is to be a simple, space-themed to-do list primarily for those with ADHD. The web application comprises of users creating a to-do list of their daily tasks which are preserved in Google Firebase for future reference. To my knowledge, the website is hosted on some server at CSU Bakersfield, and I do not know if the Firebase backend is still functional.",
   
-  "The website you're on is my portfolio website made using Flutter. This is where I will be updating past and ongoing projects I have.",
+  "The website you're on is my portfolio website made using React. This is where I will be updating past and ongoing projects I have.",
   
   "Growing up, my friends and I used to play games together but it was always dependent on one specific individual to be online to host the game's server. This project is a discord bot that runs on an 8GB Raspberry Pi 4 which could start and stop the server given the proper commands. I made this using discord.py and the mcrcon python library to control the game through the discord bot. This is sadly a project that I did before I knew how to use Git/Github so it was lost to time, but if I have time I'll rebuild it and use Github to display it here.",
   
@@ -57,7 +57,7 @@ const projects = [
     description: projectDescriptions[4],
     image: "/portfolio.png",
     url: "https://smpollard0.github.io",
-    tags: ["Flutter", "Web", "Portfolio"]
+    tags: ["React", "TailwindCSS", "Web", "Portfolio"]
   },
   {
     id: 5,
