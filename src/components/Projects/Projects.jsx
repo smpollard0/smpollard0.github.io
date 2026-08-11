@@ -131,7 +131,7 @@ function Projects() {
                 className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden cursor-pointer group"
                 onClick={() => openProject(project.id)}
               >
-                {/* Image - This should show the image in the card */}
+                {/* Image */}
                 <div className="h-48 bg-linear-to-br from-blue-400 to-purple-400 relative overflow-hidden">
                   {renderImage(project.image, project.title)}
                 </div>
@@ -192,7 +192,7 @@ function Projects() {
                     const project = projects.find(p => p.id === expandedId);
                     return (
                       <>
-                        {/* Image - This should show the image in the modal too */}
+                        {/* Image */}
                         <div className="w-full h-64 md:h-80 rounded-xl overflow-hidden bg-linear-to-br from-blue-400 to-purple-400 mb-6">
                           {renderImage(project.image, project.title, "w-full h-full object-cover")}
                         </div>

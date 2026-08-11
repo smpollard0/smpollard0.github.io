@@ -1,6 +1,6 @@
 import Header from './components/Header/Header';
 import RevealOnScroll from './components/RevealOnScroll/RevealOnScroll';
-import About from './components/About/About';  // Add this import
+import About from './components/About/About';
 import Publications from './components/Publications/Publications';
 import Education from './components/Education/Education';
 import Projects from './components/Projects/Projects';

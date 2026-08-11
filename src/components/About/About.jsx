@@ -1,6 +1,6 @@
 import RevealOnScroll from '../RevealOnScroll/RevealOnScroll';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { SiGooglescholar, SiOrcid } from 'react-icons/si'; // Using Simple Icons for these
+import { SiGooglescholar, SiOrcid } from 'react-icons/si';
 
 function About() {
   return (
