@@ -8,8 +8,8 @@ function Education() {
       degrees: [
         {
           degree: "Ph.D. in Applied Mathematics",
-          details: "Expected 2030",
-          advisor: "Advisor: Robert Guy & Harishankar Manikantan",
+          year: "Expected 2030",
+          details: "Advisor: Robert Guy & Harishankar Manikantan",
           borderColor: "border-blue-500"
         }
       ]
@@ -20,20 +20,20 @@ function Education() {
       degrees: [
         {
           degree: "M.S. in Computer Science",
+          year: "2025",
           details: "Thesis: A Comparison of Kalman Filtering and Deep Learning for State Estimation in Chaotic Systems",
           advisor: "Advisor: Samuel B. Siewert",
           borderColor: "border-purple-500"
         },
         {
           degree: "B.S. in Computer Science",
-          details: "2024",
-          advisor: "",
+          year: "2024",
           borderColor: "border-green-500"
         },
         {
           degree: "B.S. in Physics",
-          details: "2024",
-          advisor: "Minor: Mathematics",
+          year: "2024",
+          details: "Minor: Mathematics",
           borderColor: "border-orange-500"
         }
       ]
@@ -68,8 +68,13 @@ function Education() {
                         className={`bg-gray-50 p-4 rounded-lg border-l-4 ${degree.borderColor}`}
                       >
                         <h4 className="text-lg font-semibold text-gray-800">{degree.degree}</h4>
-                        <p className="text-gray-600 text-sm">{degree.details}</p>
-                        <p className="text-gray-500 text-sm mt-1">{degree.advisor}</p>
+                        <p className="text-gray-600 text-sm">{degree.year}</p>
+                        {degree.details && (
+                          <p className="text-gray-600 text-sm mt-1">{degree.details}</p>
+                        )}
+                        {degree.advisor && (
+                          <p className="text-gray-500 text-sm mt-1">{degree.advisor}</p>
+                        )}
                       </div>
                     ))}
                   </div>
