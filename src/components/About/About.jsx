@@ -14,11 +14,12 @@ function About() {
         <RevealOnScroll delay={100}>
           <div className="bg-gray-50 p-8 rounded-xl shadow-lg mb-8 flex flex-col md:flex-row gap-8 items-center">
             {/* Photo Placeholder */}
-            <div className="shrink-0">
-              <div className="w-48 h-48 md:w-56 md:h-56 rounded-full bg-linear-to-br from-blue-400 to-purple-400 flex items-center justify-center text-white text-6xl font-bold shadow-lg">
-                MP
-              </div>
-            </div>
+            <img 
+                src="/headshot.JPG" 
+                alt="Matthew Pollard"
+                loading="lazy"
+                className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover shadow-lg"
+              />
             
             {/* Bio Text */}
             <div className="flex-1">
