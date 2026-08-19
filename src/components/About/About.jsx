@@ -1,5 +1,5 @@
 import RevealOnScroll from '../RevealOnScroll/RevealOnScroll';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaFileDownload } from 'react-icons/fa';
 import { SiGooglescholar, SiOrcid } from 'react-icons/si';
 
 function About() {
@@ -76,6 +76,17 @@ function About() {
                   aria-label="ORCID"
                 >
                   <SiOrcid />
+                </a>
+                <span className="w-px h-8 bg-gray-300 hidden sm:block"></span>
+
+                {/* CV Download Button */}
+                <a
+                  href="/cv.pdf"
+                  download="Pollard_CV.pdf"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all duration-200 text-sm font-medium shadow-sm hover:shadow-md"
+                >
+                  <FaFileDownload className="text-base" />
+                  Download CV
                 </a>
               </div>
             </div>
