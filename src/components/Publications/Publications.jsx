@@ -30,7 +30,7 @@ function Publications() {
     return (
       <section id="publications" className="min-h-screen py-20 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-gray-800 mb-6">Publications</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-6">Publications & Presentations</h2>
           <p className="text-gray-500">No publications available.</p>
         </div>
       </section>
@@ -41,7 +41,7 @@ function Publications() {
     <section id="publications" className="min-h-screen py-20 px-4 bg-white">
       <div className="max-w-4xl mx-auto">
         <RevealOnScroll>
-          <h2 className="text-4xl font-bold text-gray-800 mb-6">Publications</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-6">Publications & Presentations</h2>
         </RevealOnScroll>
 
         {publications.map((pub, index) => (
