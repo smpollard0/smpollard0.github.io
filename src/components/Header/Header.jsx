@@ -13,7 +13,7 @@ const Header = () => {
           S. Matthew Pollard
         </div>
         
-        <ul className="flex gap-8 text-gray-600 font-medium">
+        <ul className="flex gap-8 text-gray-600 font-medium overflow-x-auto">
           <li>
             <button 
               onClick={() => scrollToSection('about')}
